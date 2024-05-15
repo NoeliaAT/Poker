@@ -1,4 +1,4 @@
-namespace Poker12.Core.Jugadas;
+namespace Poker.Core.Jugadas;
 public class CartaAlta : IJugada
 {
     public string Nombre => "Carta Alta";

@@ -1,4 +1,4 @@
-namespace Poker12.Core.Test;
+namespace Poker.Core.Test;
 public class CartaTest
 {
     Carta _seisTrebol = new(EPalo.Trebol, EValor.Seis);

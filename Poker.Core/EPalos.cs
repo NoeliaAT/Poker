@@ -1,4 +1,4 @@
-namespace Poker12.Core;
+namespace Poker.Core;
 public enum EPalo : byte
 {
     Corazon,

@@ -1,6 +1,6 @@
-using Poker12.Core.Jugadas;
+using Poker.Core.Jugadas;
 
-namespace Poker12.Core.Test.Jugadas;
+namespace Poker.Core.Test.Jugadas;
 public class CartaAltaTest
 {
     private IJugada _cartaAlta;
