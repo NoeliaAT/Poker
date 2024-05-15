@@ -45,3 +45,5 @@ public class CartaAltaTest
         Assert.Equal((byte)valor, resultado.Valor);
     }
 }
+
+

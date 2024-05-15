@@ -6,3 +6,4 @@ public enum EPalo : byte
     Picas,
     Trebol
 }
+
