@@ -1,17 +1,17 @@
 using Poker.Core.Jugadas;
 
 namespace Poker.Core.Test.Jugadas;
-public class CartaAltaTest
+public class TrioTest
 {
-    private IJugada _cartaAlta;
-    public CartaAltaTest() => _cartaAlta = new CartaAlta();
+    private IJugada _trio;
+    public TrioTest() => _trio = new Trio();
 
     [Fact]
     public void FallaPorJugadaSinCartas()
     {
         var jugada = new List<Carta>();
 
-        Assert.Throws<ArgumentException>(() => _cartaAlta.Aplicar(jugada));
+        Assert.Throws<ArgumentException>(() => _trio.Aplicar(jugada));
     }
 
     [Fact]
